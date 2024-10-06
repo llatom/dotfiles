@@ -1,0 +1,63 @@
+{
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "prettier.semi": false,
+  "editor.formatOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "prettier.arrowParens": "avoid",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.accessibilitySupport": "off",
+  "github.copilot.enable": {
+    "markdown": false,
+    "*": true,
+    "javascript": true,
+    "plaintext": false,
+    "yaml": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "prettier.printWidth": 140,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "beautify.config": "",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true
+    },
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned",
+      "wrap_line_length": 200,
+      "wrap_width_line": false,
+      "semi": false,
+      "singleQuote": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+}
